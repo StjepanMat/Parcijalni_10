@@ -5,7 +5,7 @@
 namespace Ispit.Todo.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class TryAgain : Migration
+    public partial class IdentityUserChangedToApplicationUserWithIdentityRole : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

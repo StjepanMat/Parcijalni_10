@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Ispit.Todo.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231029195435_sixth")]
-    partial class sixth
+    [Migration("20231029204646_IdentityUserChangedToApplicationUserWithIdentityRole")]
+    partial class IdentityUserChangedToApplicationUserWithIdentityRole
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
